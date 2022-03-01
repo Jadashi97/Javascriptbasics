@@ -1,3 +1,4 @@
+/*
 // Eg 1
 var a;
 a = 2
@@ -42,3 +43,20 @@ b += 4;
 c += 8;
 
 console.log(a)
+ 
+
+// Eg 4 concatenating strings
+ var myStr = 'My name is Lokose' + ' i am 25yrs';
+ myStr += 'I am a javascipt student'
+ console.log(myStr) 
+
+
+
+// Eg 5
+
+var myFam = "Lemi, Wani, Winnie, Jimmy, Winnie";
+
+var myStory = "I have a big family and they include, " + myFam + " including Tom who lives in Juba";
+
+console.log(myStory)
+**/
