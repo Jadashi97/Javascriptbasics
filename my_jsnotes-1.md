@@ -5,7 +5,7 @@ used for multiline commenting
 
 /* Data Types:
 undefined, null, boolean, string, symbol, number, and object
-*/
+**/
 // used for one line commenting
 
 var = used to set a variable
@@ -16,3 +16,11 @@ console.log() = used to run code
 
 myName = use that format used to name a variable
  
+# operators 
+let myVar = myVar;
+myVar = 1 + 1;
+myVar = 1*1
+myVar = 1/1
+myVar = 
+myVar++; = same as myVar + 1
+myvar--; = same as myVar - 1
