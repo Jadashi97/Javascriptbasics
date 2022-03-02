@@ -57,5 +57,13 @@ Code	Output
 - we can use "lokose " + "daniel "
 - we can use +=
 
-# constructing stings with variables
+# constructing strings with variables
 - we can use ( + )
+- .length (used to find the length)
+
+# working string variables
+[]
+
+
+# some important functions
+${ } = used like string formating
