@@ -52,11 +52,41 @@ console.log(a)
 
 
 
-// Eg 5
+// Eg 5(concatenation)
 
 var myFam = "Lemi, Wani, Winnie, Jimmy, Winnie";
 
 var myStory = "I have a big family and they include, " + myFam + " including Tom who lives in Juba";
 
 console.log(myStory)
+
+
+// Eg 6( mutability vs immutabilty)
+var myName = "Nyaji";
+myName[3] = "r";
+var myName = "Nyarji";
+
+console.log(myName)
+
+
+var myInfor = ["Nyaji", "Daniel"];
+myInfor[0] = "Nyarji";
+console.log(myInfor)
+
+
+// Eg (manipulating arrays )
+
+var myFam = ["wani", "lemi", "Jibbi", "Winnie","Tom"];
+var addedToMyFam = myFam.push("Jimmy");
+var removedWani = myFam.shift();
+var removedTom = myFam.pop();
+var addBackWani = myFam.unshift("Wani");
+console.log(myFam);
+
+
+// working with functions
+function myName(){
+    console.log("Nyarji Daniel Jada")
+}
+myName();
 **/

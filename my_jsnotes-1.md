@@ -1,20 +1,18 @@
 # notes on basics and syntax of javascript 
-/*
-used for multiline commenting
-**/
+- /*
+  used for multiline commenting
+  **/
 
-/* Data Types:
-undefined, null, boolean, string, symbol, number, and object
-**/
-// used for one line commenting
+- /* Data Types:
+     - undefined, null, boolean, string, symbol, number, and object
+- // used for one line commenting
 
-var = used to set a variable
-let = also used to set a variable
-const = used to set a  const that cant be changed
-;(semicolon) = used after every line of code
-console.log() = used to run code
+ - var = used to set a variable
+- let = also used to set a variable
+- const = used to set a  const that cant be changed
+- ;(semicolon) = used after every line of code
+- console.log() = used to run code
 
-myName = use that format used to name a variable
  
 # operators 
 let a = a;
@@ -27,6 +25,15 @@ a *= 1; (a = a*1)
 a /= 1; (a = a/1)
 a ++; (a+a )
 a --; = (a - a)
+
+# working with Arrays
+- arrays work similar to LISTS in python
+- they are mutable
+.pop() - removes last charater
+.push() - adds character at the end
+.shift() - removes first character
+.unshift() - adds first character
+
 
 # formating a string 
 ( \ ) == escape character used before a second double quote
@@ -66,4 +73,11 @@ Code	Output
 
 
 # some important functions
-${ } = used like string formating
+- ${ } = used like string formating
+
+# writing a function
+- function myName(){
+    console.log("Daniel);
+}
+myName(); (this is calling a fuction)
+
