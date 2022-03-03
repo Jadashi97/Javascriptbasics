@@ -89,4 +89,17 @@ function myName(){
     console.log("Nyarji Daniel Jada")
 }
 myName();
-**/
+
+// eg1 - passing arguments
+function myName(firstName, secondName){
+    console.log(firstName, secondName);
+}
+myName("Lokose", "Daniel")
+
+// eg2 - using return
+function timesFive(num){
+    return num *5;
+}
+const answer = timesFive(2);
+console.log(answer)
+

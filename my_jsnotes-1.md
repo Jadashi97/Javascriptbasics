@@ -4,10 +4,10 @@
   **/
 
 - /* Data Types:
-     - undefined, null, boolean, string, symbol, number, and object
+- undefined, null, boolean, string, symbol, number, and object
 - // used for one line commenting
 
- - var = used to set a variable
+- var = used to set a variable
 - let = also used to set a variable
 - const = used to set a  const that cant be changed
 - ;(semicolon) = used after every line of code
@@ -81,3 +81,8 @@ Code	Output
 }
 myName(); (this is calling a fuction)
 
+- function with arguments and parameters
+function myName(param1, param2){
+    console.log(param1 + param2)
+}
+myName("lokose", "Daniel")
