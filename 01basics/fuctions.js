@@ -37,4 +37,52 @@ function myBro() {
     return myBro;
 }
 console.log(myBro);
+
+//eg5. using a function without a return
+let myFamo = 7;
+function myFam (num){
+    myFam = num + myFamo;
+
+}
+myFam(2);
+
+//eg6. using a return value as a variable
+let mySis = 1;
+
+function myBros(num){
+    return num - mySis;
+
+}
+myFam = myBros(6);
+
+
+//eg7. working with user infor and using the backticks(``)
+function userRole(name, role){
+    switch(role) {
+        case "Admin":
+            return `${name} is the admin with all acces`;
+
+        case "sub-Admin":
+            return ` ${name} is the subAdmin with acces to create and delete`;
+        
+        case "testprep":
+            return `${name} is the testprep and is tested and uses content.`;
+        
+        case "user":
+            return ` ${name} is the user to consume the content`;
+        
+        default:
+            return `${name} is a trial user`;
+    }
+}
+console.log(userRole("Lokose", "sub-Admin"));
+
+//eg8. not finised
+let array = [1,2,3,4,5];
+function nextInLine(array){
+    array.push([6]);
+    return array.shift(2);
+
+}
+console.log(nextInLine(array));
 **/

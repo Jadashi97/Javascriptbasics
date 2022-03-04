@@ -95,7 +95,7 @@ function myName(firstName, secondName){
     console.log(firstName, secondName);
 }
 myName("Lokose", "Daniel")
-
+**/
 // eg2 - using return
 function timesFive(num){
     return num *5;

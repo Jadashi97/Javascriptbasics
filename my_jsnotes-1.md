@@ -29,10 +29,10 @@ a --; = (a - a)
 # working with Arrays
 - arrays work similar to LISTS in python
 - they are mutable
-.pop() - removes last charater
-.push() - adds character at the end
-.shift() - removes first character
-.unshift() - adds first character
+- .pop() - removes last charater
+- .push() - adds character at the end
+- .shift() - removes first character
+- .unshift() - adds first character
 
 
 # formating a string 
@@ -68,13 +68,13 @@ Code	Output
 - we can use ( + )
 - .length (used to find the length)
 
-# working string variables
+# working with string variables
 []
 
 
 # some important functions
-- ${ } = used like string formating
-
+- ` ${ } = used like for string formating `(notice the backtiks)
+- 
 # writing a function
 - function myName(){
     console.log("Daniel);
