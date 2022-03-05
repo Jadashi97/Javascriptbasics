@@ -25,6 +25,10 @@ a ++; (a+a )
 a --; = (a - a)
 == (equal)
 === (used to equate btn a string and a number)
+&& (logical and operator) - returns true if all operand are true 
+|| (logical or operator) - returns true if either of operands is true
+>= 
+<=
 
 
 # working with Arrays
