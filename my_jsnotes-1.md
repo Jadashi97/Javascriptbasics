@@ -49,12 +49,15 @@ e.g ('My name is, "Nyarji Daniel Jada", also known as, "Lokose" ')
 
 - ` ${ } = used like for string formating `(notice the backtiks)
 
-# how to run js in both Iterm and vscode terminal
+# how to run a js script
 - Iterm
 cd into dir --> node/name.js/ --> run
 
 - vscode Teminal
 open terminal (ctr + ~) --> node/name.js/ --> run
+
+- using html and js scrpt
+html --> !--> include the document then run it
  
 # Escaping sequences in strings
 Code	Output
@@ -77,8 +80,15 @@ Code	Output
 
 
 - 
+# Functions 
+  - group of related statements 
+     - use the keyword function to declare it 
+     - user function expression var, let or const to declare it
+     - the IIFE(Immediately Invoked Function Expression) a.k.a anonymous function
+# Functions VS methods
+  - A method is a fuction within a class   
+ # writing a function
 
-# writing a function
 - function myName(){
     console.log("Daniel);
 }
