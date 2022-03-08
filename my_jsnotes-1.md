@@ -49,7 +49,7 @@ e.g ('My name is, "Nyarji Daniel Jada", also known as, "Lokose" ')
 
 - ` ${ } = used like for string formating `(notice the backtiks)
 
-# how to run a js script
+# how to run a js , html script.
 - Iterm
 cd into dir --> node/name.js/ --> run
 
@@ -57,7 +57,7 @@ cd into dir --> node/name.js/ --> run
 open terminal (ctr + ~) --> node/name.js/ --> run
 
 - using html and js scrpt
-html --> !--> include the document then run it
+html --> ! & Tab --> include the script --> then run it in the the folder
  
 # Escaping sequences in strings
 Code	Output
