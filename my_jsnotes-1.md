@@ -34,10 +34,12 @@ a --; = (a - a)
 # working with Arrays
 - arrays work similar to LISTS in python
 - they are mutable
-- .pop() - removes last charater
-- .push() - adds character at the end
-- .shift() - removes first character
-- .unshift() - adds first character
+- .pop(); - removes last charater
+- .push(); - adds character at the end
+- .shift(); - removes first character
+- .unshift(); - adds first character
+- .indexOf(); - used to locate a charater or can be used to prove a character isnt there.
+- Array.from("Kose") - used to make Kose into ["K", "o", "s", "e"]
 
 
 # formating a string 
