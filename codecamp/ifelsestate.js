@@ -21,7 +21,7 @@ function orderMyLogic(val) {
   }
   
 console.log(orderMyLogic(7));
-
+*/
 // writing a chained if/else statement
 function chainedIfElse(num) {
   if (num < 5) {
@@ -36,6 +36,5 @@ function chainedIfElse(num) {
     return "Huge";
   } return "Change Me";
 }
-console.log(chainedIfElse(5));
-*/
+console.log(chainedIfElse(100));
 

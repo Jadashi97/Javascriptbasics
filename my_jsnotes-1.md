@@ -24,11 +24,12 @@ a /= 1; (a = a/1)
 a ++; (a+a )
 a --; = (a - a)
 == (equal)
+!== (not equal)
 === (used to equate btn a string and a number)
 && (logical and operator) - returns true if all operand are true 
 || (logical or operator) - returns true if either of operands is true
->= 
-<=
+>= (greater than or equals to)
+<= (less than or equals to)
 
 
 # working with Arrays
@@ -91,7 +92,7 @@ Code	Output
   - A method is a fuction within a class   
  # writing a function
 
-- function myName(){
+  - function myName(){
     console.log("Daniel);
 }
 myName(); (this is calling a fuction)
