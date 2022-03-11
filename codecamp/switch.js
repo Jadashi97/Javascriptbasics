@@ -40,3 +40,40 @@ function switchStuff(val) {
     return answer;
 }
 console.log(switchStuff("c"));
+
+function dailyThings(val) {
+    let answer = " ";
+    switch(val) {
+        case "a":
+            answer = "apple";
+            break;
+        case "b":
+            answer = "bird";
+            break;
+        case "c":
+            answer = "cat";
+            break;
+        default:
+            answer = "nahh it aint here";
+            break;
+    } return answer;
+}
+console.log(dailyThings("t"));
+
+// multiple identical options in switch statements
+
+function readPulse(val) {
+    let answer = " "
+    switch(val) {
+        case 60-80 :
+        case 80-120:
+        case 120-160:
+            answer = " low, mid, high";
+            break;
+        case 160-200:
+            answer = " that is a faltline";
+            break;
+        
+    } return answer;
+}
+console.log(readPulse(80-120));
