@@ -1,4 +1,5 @@
-const { log } = console;
+// various ways of declaring a fuction
+const { log } = console; // he said this will come later on
 
 // function key
 function getAge() {

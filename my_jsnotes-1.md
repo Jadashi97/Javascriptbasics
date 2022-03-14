@@ -86,7 +86,7 @@ Code	Output
 # Functions 
   - group of related statements 
      - use the keyword function to declare it 
-     - user function expression var, let or const to declare it
+     - use function expression var, let or const to declare it
      - the IIFE(Immediately Invoked Function Expression) a.k.a anonymous function
 # Functions VS methods
   - A method is a fuction within a class   

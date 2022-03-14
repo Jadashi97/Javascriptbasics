@@ -54,7 +54,7 @@ function myBros(num){
 
 }
 myFam = myBros(6);
-*/
+
 
 //eg7. working with user infor and using the backticks(``)
 function userRole(name, role){
@@ -76,7 +76,7 @@ function userRole(name, role){
     }
 }
 console.log(userRole("Lokose", "sub-Admin"));
-/*
+
 //eg8. not finised
 let array = [1,2,3,4,5];
 function nextInLine(array){
@@ -86,4 +86,10 @@ function nextInLine(array){
 }
 console.log(nextInLine(array));
 
+
+//usig the the fat arrow for functions
+let myInfor = (name, age, job, car)=> {
+    console.log(`My name is ${name}. I am ${age} and I am a ${job} plus I drive a ${car}.`)
+}
+myInfor("Nyarji", "43", "Fullstack web developer","Tesla" );
 */

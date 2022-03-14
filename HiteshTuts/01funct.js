@@ -1,4 +1,4 @@
-/*
+
 // using the function key and incorporating the (switch/ case)
 function userRole(name, role){
 switch (role) {
@@ -13,7 +13,7 @@ switch (role) {
 }
 }
 console.log(userRole("lokose", "guest"))
-*/
+
 // incoorporate the function Expression
 
 var userRole = function(name, role) {
