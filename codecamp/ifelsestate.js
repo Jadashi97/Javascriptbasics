@@ -21,7 +21,7 @@ function orderMyLogic(val) {
   }
   
 console.log(orderMyLogic(7));
-*/
+
 // writing a chained if/else statement
 function chainedIfElse(num) {
   if (num < 5) {
@@ -37,4 +37,45 @@ function chainedIfElse(num) {
   } return "Change Me";
 }
 console.log(chainedIfElse(100));
+
+
+//returning boolean values from fuctions   
+let isMore = (a,b)=>{
+  if (a < b){
+    return true;
+  }
+  else{
+    return false
+  }
+} 
+console.log(isMore(2,6));
+
+
+let isLess = (a,b)=>{
+  return a < b;
+}
+console.log(isLess(12,7));
+
+// return early pattern for function 
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+console.log(myFun());
+
+let abTest = (a,b)=>{
+
+}
+
+
+let myfamo = (a,b)=> {
+  if (a < 3 || b < 3) {
+    return undefined;
+  }
+}
+console.log(myfamo(0,0));
+*/
+
+
 
