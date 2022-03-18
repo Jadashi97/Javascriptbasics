@@ -58,8 +58,8 @@ console.log(isLess(12,7));
 
 // return early pattern for function 
 function myFun() {
-  console.log("Hello");
-  return "World";
+  console.log("lokose");
+  return "second";
   console.log("byebye")
 }
 console.log(myFun());
@@ -68,7 +68,6 @@ let abTest = (a,b)=>{
 
 }
 
-
 let myfamo = (a,b)=> {
   if (a < 3 || b < 3) {
     return undefined;
@@ -76,6 +75,34 @@ let myfamo = (a,b)=> {
 }
 console.log(myfamo(0,0));
 */
+
+// Counting cards
+
+let count = 0;
+function cardCounting(card) {
+  switch (card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count ++;
+      break;
+    case 10:
+    case "K":
+    case "Q":
+    case "A":
+    case "J":
+      count --;
+      break;
+  }
+  var holdbet = "Hold";
+  if (count > 0){
+    holdbet = "Bet";
+  }
+  return count + " " + holdbet;
+}
+console.log(cardCounting(4));
 
 
 
