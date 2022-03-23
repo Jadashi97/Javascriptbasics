@@ -30,7 +30,7 @@ const testObj = {
     shirtValue : "shirt",
 };
 console.log(testObj.shirtValue);
-*/
+
 // accesing objects with bracket Notation
 const myFam = {
     "first born" :"Tom",
@@ -42,5 +42,25 @@ const myFam = {
 myFam["first born"];
 
 // accessing object properties with variables
+const someObj = {
+    propName: "John"
+};
 
+function propPrefix(str) {
+    const s = "prop";
+    return s + str;
+}
 
+const someProp = propPrefix("Name");
+console.log(someObj[someProp]);
+*/
+//updating object properties
+const ourDog = {
+    "name":"Camper",
+    "legs": 4,
+    "tails":1,
+    "friends":["eveything!"]
+};
+ourDog.name = "Happy Camper";
+console.log(ourDog);
+// adding new properties to javascript
