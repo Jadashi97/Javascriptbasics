@@ -2,8 +2,6 @@
 - /*
   used for multiline commenting
   **/
-
-- Data Types:  undefined, null, boolean, string, symbol, number, and object
 - // used for one line commenting
 - var = used to set a variable
 - let = also used to set a variable
@@ -11,7 +9,6 @@
 - ;(semicolon) = used after every line of code
 - console.log() = used to run code
 
- 
 # operators 
 let a = a;
 a = 1 + 1;
@@ -114,3 +111,35 @@ myName("lokose", "Daniel")
     - scope chaining (child grabs icecream from elders and not the other way round)
     
     - this  (to be discussed)           
+# Data Structures
+- Data Types:  undefined, null, boolean, string, symbol, number, and object
+
+# Truthy Vs Falsy
+- this is a way to write cleaner code
+   
+   - Truthy (this is a value that is considered True when in a Boolean context)
+   e.g  if (true)
+        if ({})
+        if ([])
+        if (42)
+        if ("0")
+        if ("false")
+        if (new Date())
+        if (-42)
+        if (12n)
+        if (3.14)
+        if (-3.14)
+        if (Infinity)
+        if (-Infinity)
+
+
+   - Falsy (a value considered false when in a Boolean context)
+   e.g  if (false)
+        if (null)
+        if (undefined)
+        if (0)
+        if (-0)
+        if (0n)
+        if (NaN)
+        if ("")
+
