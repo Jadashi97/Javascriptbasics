@@ -115,8 +115,19 @@ myName("lokose", "Daniel")
 - Data Types:  undefined, null, boolean, string, symbol, number, and object
 
 # Truthy Vs Falsy
-- this is a way to write cleaner code
+  - this is a way to write cleaner code
    
+   - Falsy (a value considered false when in a Boolean context)
+   e.g  if (false)
+        if (null)
+        if (undefined)
+        if (0)
+        if (-0)
+        if (0n)
+        if (NaN)
+        if ("")
+
+
    - Truthy (this is a value that is considered True when in a Boolean context)
    e.g  if (true)
         if ({})
@@ -131,15 +142,4 @@ myName("lokose", "Daniel")
         if (-3.14)
         if (Infinity)
         if (-Infinity)
-
-
-   - Falsy (a value considered false when in a Boolean context)
-   e.g  if (false)
-        if (null)
-        if (undefined)
-        if (0)
-        if (-0)
-        if (0n)
-        if (NaN)
-        if ("")
 
