@@ -62,5 +62,42 @@ const ourDog = {
     "friends":["eveything!"]
 };
 ourDog.name = "Happy Camper";
-console.log(ourDog);
-// adding new properties to javascript
+// console.log(ourDog);
+// adding new properties to javascript   (just add the (.) and what to add)
+ourDog.bark = "woof woof"; 
+// console.log(ourDog);
+
+// deleting properties from javascript
+delete ourDog.legs
+// console.log(ourDog);
+
+// using objects for lookups (we can use the lookup key word to find an object within the function)
+// find out if lookup is deprecated
+function family(bros) {
+    let result = "";
+
+    var lookup = {
+
+        "firstBorn":"Tom",
+        "secondBorn": "Lokose",
+        "thirdBorn":"Wani",
+        "fourthBorn":"lemi",
+    };
+    result = lookup(bros);   
+    return result; 
+};
+// console.log(family("thirdBorn"));
+
+// testing objects for their properties
+const myObj = {
+    top: "hat",
+    bottom: "pants"
+  };
+function checkObj(obj, checkProp) {
+    if(obj.hasOwnProperty(checkProp)) {
+      return obj[checkProp];
+    }else {
+      return "Not Found";
+    }
+  };
+  console.log(checkObj("top"));
