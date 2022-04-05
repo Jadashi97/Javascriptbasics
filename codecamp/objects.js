@@ -1,6 +1,5 @@
 //bulding javascript objects
-/*
-    eg1. 
+// eg1. 
 const cat = {
 name: "whiskers",
 legs: 4,
@@ -8,7 +7,7 @@ tails: 1,
 enenemies: ["water", "Dogs"]
 };
 
-EX 1 
+// EX 1 
 const myDog = {
 name: "papichow",
 legs: 4,
@@ -22,14 +21,14 @@ const myObj = {
     prop1 : "val 1",
     prop2 : "val 2",
 }
-console.log(myObj.prop1);
+// console.log(myObj.prop1);
 
 //EX.2
 const testObj = {
     hatValue : "hat",
     shirtValue : "shirt",
 };
-console.log(testObj.shirtValue);
+// console.log(testObj.shirtValue);
 
 // accesing objects with bracket Notation
 const myFam = {
@@ -52,8 +51,8 @@ function propPrefix(str) {
 }
 
 const someProp = propPrefix("Name");
-console.log(someObj[someProp]);
-*/
+// console.log(someObj[someProp]);
+
 //updating object properties
 const ourDog = {
     "name":"Camper",
@@ -89,15 +88,16 @@ function family(bros) {
 // console.log(family("thirdBorn"));
 
 // testing objects for their properties
-const myObj = {
+const myObject = {
     top: "hat",
     bottom: "pants"
   };
-function checkObj(obj, checkProp) {
-    if(obj.hasOwnProperty(checkProp)) {
+
+function checkObj(myObject, checkProp) {
+    if(myObject.hasOwnProperty(checkProp)) {
       return obj[checkProp];
     }else {
       return "Not Found";
     }
   };
-  console.log(checkObj("top"));
+console.log(checkObj("top"));
