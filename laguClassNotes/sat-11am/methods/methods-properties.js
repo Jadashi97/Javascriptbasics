@@ -91,3 +91,7 @@ fam.normalize();
 
 
 // // Properties
+
+fam.length;
+// Returns the length of a String object.
+
