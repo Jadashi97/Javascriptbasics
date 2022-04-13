@@ -28,14 +28,32 @@
 // console.log(calculator(6,3,divide));
 
 
-// working with constructor functions and (new and this) keywords
+// // working with constructor functions and (new and this) keywords
 
-function HouseKeeper(name, yearWorking, workPermit){
-    this.name = name;
-    this.workPermit = workPermit;
-    this.yearWorking = yearWorking;
+// function HouseKeeper(name, yearWorking, workPermit){
+//     this.name = name;
+//     this.workPermit = workPermit;
+//     this.yearWorking = yearWorking;
+// };
+
+// var houseKeeper1 = new HouseKeeper("lokose",true, "10 years");
+// console.log(houseKeeper1);
+
+// the logic behind callback functions
+
+function anotherAddEventListener(typeOfEvent, callback){
+
+    var eventThatHappend = {
+        eventType: "keyPress",
+        key: "p",
+        duration:2
+
+    }
+    if (eventThatHappend.eventType === typeOfEvent){
+        callback(eventThatHappend);
+    }
 };
 
-var houseKeeper1 = new HouseKeeper("lokose",true, "10 years");
-console.log(houseKeeper1);
-
+anotherAddEventListener("keyPress", function(event){
+    console.log(event);
+});
