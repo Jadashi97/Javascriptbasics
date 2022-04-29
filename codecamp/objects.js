@@ -102,7 +102,7 @@
 //   };
 // console.log(checkObj("top"));\
 
-//Accesssing nested objects using the dot notation and accessing arrays 
+// // Accesssing nested objects using the dot notation and accessing arrays 
 
 // const my_apart = {
 
@@ -145,3 +145,19 @@ const myFamAchivements = {
     }
 };
 
+function familyRecords(records, id, life, value    ){
+    if( life !== "profession" && value !== " "){
+        records[id][life] = value;    
+
+    }else if(life === "profession" && records[id].hasOwnProperty("profession")=== false){
+        records[id][life] = [value];
+
+    }else if (life === "profession" && value !== " "){
+        records[id][life].push(value);
+    }else if( value === " "){
+        delete records[id][life];''
+    }
+   return records;  
+}
+
+console.log(familyRecords(phd, 123, "lets get it", "web_dev"));
