@@ -1,4 +1,4 @@
-/*
+
 function foo(x) {
     if (x < 1) {
         return "Less than one";
@@ -74,7 +74,7 @@ let myfamo = (a,b)=> {
   }
 }
 console.log(myfamo(0,0));
-*/
+
 
 // Counting cards
 
