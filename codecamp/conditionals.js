@@ -71,8 +71,21 @@
 // };
 
 //counting backwards with a for loop
-const myArray = [];
+// const myArray = [];
 
-for(let i = 9; i > 0; i-=2){
-    console.log(myArray.push(i));
+// for(let i = 9; i > 0; i-=2){
+//     console.log(myArray.push(i));
+// }
+
+//iterating thru an array with a for loop
+
+const theArr = [2, 3, 4, 5, 6];
+
+const total = [];
+//this iterates the numbers in the array untill it gets to the index below that is needed
+
+for(let i = 0; i < theArr.length; i++){
+   //so this adds all the numbers in the array      finish this
+
+  console.log(total.push(total += theArr.length));
 }
