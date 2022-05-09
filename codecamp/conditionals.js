@@ -91,3 +91,18 @@ for(let i = 0; i < theArr.length; i++){
 }
 
 
+//Nesting forloops   ........ pls finish this!!!!!!!!
+
+function multiplyAll(arr){
+    let product = 1;
+    
+    // this goes within the code and picks what needs to be iterated and finds the product and spits that out
+    for(let i = 0; i < arr.length; i++){
+        for(let j= 0; j< arr[i].length; j++){
+            product *= [i][j];
+        }
+    }
+    return product;
+}
+var product = multiplyAll([[1, 2], [3, 4], [5, 6, 7]])
+console.log(product);
