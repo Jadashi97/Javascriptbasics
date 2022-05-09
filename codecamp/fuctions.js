@@ -1,5 +1,5 @@
 //Working with Operators
-/*
+
 // eg 1. calculations
 //D = (L - S)/L * 100
 
@@ -92,4 +92,3 @@ let myInfor = (name, age, job, car)=> {
     console.log(`My name is ${name}. I am ${age} and I am a ${job} plus I drive a ${car}.`)
 }
 myInfor("Nyarji", "43", "Fullstack web developer","Tesla" );
-*/
