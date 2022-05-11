@@ -103,5 +103,3 @@ function cardCounting(card) {
 }
 console.log(cardCounting(4));
 
-
-

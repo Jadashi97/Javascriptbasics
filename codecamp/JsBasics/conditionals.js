@@ -121,21 +121,36 @@ let i = 0;
 // }
 // console.log(myCont);
 
-//do while loops
+// //do while loops
 
-do{
-    i++;
-    console.log(myCont.push(i)); 
-}while(i < 5)
+// do{
+//     i++;
+//     console.log(myCont.push(i)); 
+// }while(i < 5)
 
-//idea behind recursion finding a key inside a box of boxes
+// //idea behind recursion finding a key inside a box of boxes
 
 //using iterative finish this and understand the whole idea behind recursion
 
-function multiply(arr, n){
-    if(n <= 0){
-        return 1;
+const arr = [1,4,2,5,3];
+
+
+// function multiply(arr, n){
+//     if(n <= 0){
+//         return 1;
+//     }else{
+//         return multiply(arr, n-1) * arr[n-1];
+//     }
+// }
+
+
+//this is a recursive functions that returns the first n elements of an array
+function sum(arr, n){
+    if (n <= 0){
+        return 0;
     }else{
-        return multiply(arr, n-1) * arr[a-1];
+        return sum(arr, n-1) + arr[n-1];
     }
 }
+
+console.log(sum(arr, 5));
