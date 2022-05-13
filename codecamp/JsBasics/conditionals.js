@@ -111,9 +111,9 @@
 
 // //while looop
 
-const myCont = [];
+// const myCont = [];
 
-let i = 0;
+// let i = 0;
 
 // while(i < 7 ){
 //     myCont.push(i);
@@ -130,9 +130,9 @@ let i = 0;
 
 // //idea behind recursion finding a key inside a box of boxes
 
-//using iterative finish this and understand the whole idea behind recursion
+// // using iterative finish this and understand the whole idea behind recursion
 
-const arr = [1,4,2,5,3];
+// const arr = [1,4,2,5,3];
 
 
 // function multiply(arr, n){
@@ -144,13 +144,54 @@ const arr = [1,4,2,5,3];
 // }
 
 
-//this is a recursive functions that returns the first n elements of an array
-function sum(arr, n){
-    if (n <= 0){
-        return 0;
-    }else{
-        return sum(arr, n-1) + arr[n-1];
-    }
-}
+// //this is a recursive functions that returns the first n elements of an array
+// function sum(arr, n){
+//     if (n <= 0){
+//         return 0;
+//     }else{
+//         return sum(arr, n-1) + arr[n-1];
+//     }
+// }
 
-console.log(sum(arr, 5));
+// console.log(sum(arr, 5));
+
+// this is a challenge to look up a person using either the property or the name the person
+const contacts = [
+    {
+      firstName: "Akira",
+      lastName: "Laine",
+      number: "0543236543",
+      likes: ["Pizza", "Coding", "Brownie Points"],
+    },
+    {
+      firstName: "Harry",
+      lastName: "Potter",
+      number: "0994372684",
+      likes: ["Hogwarts", "Magic", "Hagrid"],
+    },
+    {
+      firstName: "Sherlock",
+      lastName: "Holmes",
+      number: "0487345643",
+      likes: ["Intriguing Cases", "Violin"],
+    },
+    {
+      firstName: "Kristian",
+      lastName: "Vos",
+      number: "unknown",
+      likes: ["JavaScript", "Gaming", "Foxes"],
+    },
+  ];
+  
+  function lookUpProfile(name, prop){
+    for(let i = 0; i < contacts.length; i++){
+        if(contacts.firstName[i] === name || prop in contacts){
+            return contacts[i][prop];
+        }else{
+            return "No such contact";
+        }
+    }
+    return "No such property"
+  }
+  
+  lookUpProfile("Akira", "likes");
