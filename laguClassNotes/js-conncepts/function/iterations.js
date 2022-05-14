@@ -44,3 +44,7 @@ do {
 for (let x = 0; x < 6; x = x + 1) {
 	log(x);
 }
+
+//what is the password challenge(ternary)
+let password = "juba";
+password === "juba"? console.log("Aloha, welcome to my world") :console.log("Access denied, try Again");

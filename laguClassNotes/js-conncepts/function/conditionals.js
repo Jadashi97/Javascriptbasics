@@ -55,22 +55,20 @@ if (trafficLight === "red") {
 }
 
 // Ternary version of the above
-trafficLight === "red" ? log("stop!") : "green"? log("green"): "yellow"? log("go with caution"): log("drive")
+trafficLight === "red" ? log("stop!") : "green"? log("green"): "yellow"? log("go with caution"): log("drive");
 
 // Other conditional condition
 // Ternary operation
 
 trafficLight === "red" ? log("Stop!") : log("Go!"); // assignment: write else if version for this.
 
-// the if else version of the ternary operation above
+// it doesnt need an else if here since we only have one condition to show
 
 let light = "purple";
 
 if (light === "red"){
     console.log("Stop");
-}else if(light != "red"){
-    console.log("Go!");
-}else{ //not entirely sure if i need this last else since its not referenced in the ternery opearator
+}else{
 console.log("Go");
 }
 
