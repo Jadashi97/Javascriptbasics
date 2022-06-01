@@ -216,3 +216,4 @@ function checkSign(num) {
 }
 
 console.log(checkSign(-1));
+
