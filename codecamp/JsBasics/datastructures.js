@@ -1,23 +1,23 @@
-// // using an array to store data
-// let myList = ["lokose","Kitty", 6, "name" ];
+// using an array to store data
+let myList = ["lokose","Kitty", 6, "name" ];
 
-// console.log(myFriends.length);
+console.log(myFriends.length);
 
-// // multidimensional arrays
+// multidimensional arrays
 
-// let myFriends = [["dog", "cat"],["daniel", "jada"]];
-// console.log(myFriends.length);
-
-
-
-// //Generate Random whole numbers with a range
+let myFriends = [["dog", "cat"],["daniel", "jada"]];
+console.log(myFriends.length);
 
 
-// function randomRange(myMin, myMax){
-//     return Math.floor(Math.random() * (myMax - myMin + 1) + myMin)
-// }
 
-// console.log(randomRange(2, 7));
+//Generate Random whole numbers with a range
+
+
+function randomRange(myMin, myMax){
+    return Math.floor(Math.random() * (myMax - myMin + 1) + myMin)
+}
+
+console.log(randomRange(2, 7));
 
 // using the parseInt function
 function convertToInteger(str){
@@ -25,3 +25,4 @@ function convertToInteger(str){
     parseInt(str)
 }
 console.log("000490485");
+
