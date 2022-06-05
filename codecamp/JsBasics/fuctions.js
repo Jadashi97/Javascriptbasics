@@ -92,3 +92,14 @@ let myInfor = (name, age, job, car)=> {
     console.log(`My name is ${name}. I am ${age} and I am a ${job} plus I drive a ${car}.`)
 }
 myInfor("Nyarji", "43", "Fullstack web developer","Tesla" );
+
+
+
+//use the parseInt function to with a Radix
+
+function convertToInteger(str){
+    //this converts any integer(str) to a binary number and returns it 
+    return parseInt(str, 2);
+};
+
+console.log(convertToInteger("10011"));
